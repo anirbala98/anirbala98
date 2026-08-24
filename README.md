@@ -101,26 +101,26 @@ A collection of Python/Bash utilities for automating common penetration testing 
 A collection of vulnerability research and proof-of-concept exploit development projects.
 
 - [CVE-2026-3576 – Planyo Wordpress Plugin](https://github.com/anirbala98/CVE-2026-3576)
-  - Server-Side Request Forgery research and Local File Inclusion exploitation
-  - **Python • PHP • Web Security**
+  - Server-side request forgery leading to local file inclusion
+  - **Python • PHP • Docker**
 
 - [CVE-2026-67206 – Wolf CMS](https://github.com/anirbala98/CVE-2026-67206)
   - Arbitrary file write leading to remote code execution
-  - **Python • PHP • Web Security**
+  - **Python • PHP • Docker**
 
 - [CVE-2026-53959 - 4gaBoards](https://github.com/anirbala98/CVE-2026-53959)
   - Broken access control leading to mass user information disclosure
-  - **Python • JavaScript**
+  - **Python • JavaScript • Docker**
 
 
 ### 🔴 Open Source Contributions
 
-Exploit modules contributed to the Metasploit Framework.
+A list of my contributions to open source security tools.
 
-- [CVE-2026-3576 Metasploit Module](https://github.com/anirbala98/metasploit-framework/blob/cve-2026-3576-lfi/modules/auxiliary/gather/wp_planyo_lfi_cve_2026_3576.rb)
-  - Exploit module for CVE-2026-3576
+- [Metasploit](https://github.com/anirbala98/metasploit-framework/blob/cve-2026-3576-lfi/modules/auxiliary/gather/wp_planyo_lfi_cve_2026_3576.rb)
+  - Exploit module for local file inclusion vulnerability in a WordPress plugin (CVE-2026-3576)
   - [Upstream PR](https://github.com/rapid7/metasploit-framework/pull/21769) . **Under Review**
-  - **Ruby • Metasploit • Exploit Development**
+  - **Ruby • Metasploit **
 
 ---
 
