@@ -73,41 +73,15 @@ Currently building security tools, researching vulnerabilities, contributing to 
 
 ---
 
-## 🔬 Security Research
+## 🎓 Certifications
 
-### Vulnerability Research
-
-I research real-world vulnerabilities across:
-
-* 🌐 Web Applications
-* 🔌 APIs
-* 🧩 CMS & Plugins
-* 🐧 Linux Applications
-* 🪟 Windows Environments
-* 🤖 AI/ML Systems
-
-### Areas of Interest
-
-```text
-Web Security          ████████████████████
-Exploit Development   ██████████████████
-Active Directory      █████████████████
-Red Teaming           ████████████████
-AI/LLM Security       ███████████████
-Cloud Security        █████████████
-```
-
-### 💥 Publications
-
-My research has been published at top-tier security conferences and journals.
-
-
-| Paper                 | Topic                | Conference/Journal                         |
-| --------------------- | -------------------- | ------------------------------ |
-| **An adversarial attack approach for explainable AI evaluation on deepfake detection models**     | AI Security                 | Computers & Security, 2024    |
-| **GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone**    | OS Security | IEEE Conference on Communications & Network Security, 2022          |
-| **Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques** | Web Security         | IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 |
-
+<p align="left">
+  <img src="https://img.shields.io/badge/OSCP-Offensive%20Security-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/eCPPT-Certified%20Professional%20Penetration%20Tester-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/eJPT-Junior%20Penetration%20Tester-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SSCP-Systems%20Security%20Certified%20Practitioner-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AWS SAA-AWS%20Solutions%20Architect%20Associate-yellow?style=for-the-badge" />
+</p>
 
 ---
 
@@ -146,12 +120,12 @@ Exploit modules contributed to the Metasploit Framework.
 
 - [CVE-2026-3576 Metasploit Module](https://github.com/anirbala98/metasploit-framework/blob/cve-2026-3576-lfi/modules/auxiliary/gather/wp_planyo_lfi_cve_2026_3576.rb)
   - Exploit module for CVE-2026-3576
+  - [Upstream PR](https://github.com/rapid7/metasploit-framework/pull/21769) . **Under Review**
   - **Ruby • Metasploit • Exploit Development**
-  - [Upstream PR](https://github.com/rapid7/metasploit-framework/pull/21769) · **Under Review**
 
 ---
 
-## ✍️ Writing & Research
+## ✍️ Writing
 
 I write about:
 
@@ -163,17 +137,20 @@ I write about:
 * 🛠️ Security Tool Development
 
 My blogs can be found [here](https://medium.com/@anirbala98)
+
 ---
 
-## 🎓 Certifications
+## 🔬 Research Publications
 
-<p align="left">
-  <img src="https://img.shields.io/badge/OSCP-Offensive%20Security-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/eCPPT-Certified%20Professional%20Penetration%20Tester-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/eJPT-Junior%20Penetration%20Tester-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SSCP-Systems%20Security%20Certified%20Practitioner-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AWS SAA-AWS%20Solutions%20Architect%20Associate-yellow?style=for-the-badge" />
-</p>
+My research has been published at top-tier security conferences and journals.
+
+
+| Paper                 | Topic                | Conference/Journal                         |
+| --------------------- | -------------------- | ------------------------------ |
+| [An adversarial attack approach for explainable AI evaluation on deepfake detection models](https://www.sciencedirect.com/science/article/abs/pii/S0167404823005941)     | AI Security                 | Computers & Security, 2024    |
+| [GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone](https://ieeexplore.ieee.org/document/9947233/)    | OS Security | IEEE Conference on Communications & Network Security, 2022          |
+| [Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques](https://ieeexplore.ieee.org/document/9368949) | Web Security         | IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 |
+
 
 ---
 
