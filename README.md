@@ -76,7 +76,7 @@ Currently building security tools, researching vulnerabilities, contributing to 
 ## 🎓 Certifications
 
 <p align="left">
-  <img src="https://img.shields.io/badge/OSCP-Offensive%20Security-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OSCP-Offensive%20Security%20Certified%20Professional-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/eCPPT-Certified%20Professional%20Penetration%20Tester-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/eJPT-Junior%20Penetration%20Tester-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SSCP-Systems%20Security%20Certified%20Practitioner-green?style=for-the-badge" />
@@ -91,9 +91,8 @@ Currently building security tools, researching vulnerabilities, contributing to 
 
 A collection of Python/Bash utilities for automating common penetration testing and reconnaissance tasks.
 
-- 🔴 [Linux Pentesting Toolkit](https://github.com/anirbala98/Linux-Pentest-Kit)
+- [Linux Pentesting Toolkit](https://github.com/anirbala98/Linux-Pentest-Kit)
   - Helper scripts for automating Linux pentesting tasks
-  - Work in progress
   - **Bash**
 
 
@@ -101,15 +100,15 @@ A collection of Python/Bash utilities for automating common penetration testing 
 
 A collection of vulnerability research and proof-of-concept exploit development projects.
 
-- 🔴 [CVE-2026-3576 – Planyo Wordpress Plugin](https://github.com/anirbala98/CVE-2026-3576)
+- [CVE-2026-3576 – Planyo Wordpress Plugin](https://github.com/anirbala98/CVE-2026-3576)
   - Server-Side Request Forgery research and Local File Inclusion exploitation
   - **Python • PHP • Web Security**
 
-- 🔴 [CVE-2026-67206 – Wolf CMS](https://github.com/anirbala98/CVE-2026-67206)
+- [CVE-2026-67206 – Wolf CMS](https://github.com/anirbala98/CVE-2026-67206)
   - Arbitrary file write leading to remote code execution
   - **Python • PHP • Web Security**
 
-- 🔴 [CVE-2026-53959 - 4gaBoards](https://github.com/anirbala98/CVE-2026-53959)
+- [CVE-2026-53959 - 4gaBoards](https://github.com/anirbala98/CVE-2026-53959)
   - Broken access control leading to mass user information disclosure
   - **Python • JavaScript**
 
@@ -144,13 +143,9 @@ My blogs can be found [here](https://medium.com/@anirbala98)
 
 My research has been published at top-tier security conferences and journals.
 
-
-| Paper                 | Topic                | Conference/Journal                         |
-| --------------------- | -------------------- | ------------------------------ |
-| [An adversarial attack approach for explainable AI evaluation on deepfake detection models](https://www.sciencedirect.com/science/article/abs/pii/S0167404823005941)     | AI Security                 | Computers & Security, 2024    |
-| [GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone](https://ieeexplore.ieee.org/document/9947233/)    | OS Security | IEEE Conference on Communications & Network Security, 2022          |
-| [Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques](https://ieeexplore.ieee.org/document/9368949) | Web Security         | IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 |
-
+- An adversarial attack approach for eXplainable AI evaluation on deepfake detection models, Computers & Security, 2024 [Link](https://www.sciencedirect.com/science/article/abs/pii/S0167404823005941)
+- GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone, IEEE Conference on Communications & Network Security, 2022 [Link](https://ieeexplore.ieee.org/document/9947233/)
+- Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques, IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 [Link](https://ieeexplore.ieee.org/document/9368949)
 
 ---
 
