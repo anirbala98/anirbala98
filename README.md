@@ -56,9 +56,9 @@ Currently building security tools, researching vulnerabilities, contributing to 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
 </p>
 
 ### 🐧 Platforms & Infrastructure
@@ -66,6 +66,7 @@ Currently building security tools, researching vulnerabilities, contributing to 
 <p align="left">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
@@ -87,40 +88,27 @@ Currently building security tools, researching vulnerabilities, contributing to 
 
 ## 🛠️ Featured Projects
 
-### 🔥 Security Automation Toolkit
+### 🔥 Security Automation
 
 A collection of Python/Bash utilities for automating common penetration testing and reconnaissance tasks.
 
-- [Linux Pentesting Toolkit](https://github.com/anirbala98/Linux-Pentest-Kit)
-  - Helper scripts for automating Linux pentesting tasks
-  - **Bash**
-
+- Linux Pentesting Toolkit - Helper scripts for automating privilege escalation and enumeration in Linux [[Repo]](https://github.com/anirbala98/Linux-Pentest-Kit)
 
 ### 💥 Exploit Development
 
 A collection of vulnerability research and proof-of-concept exploit development projects.
 
-- [CVE-2026-3576 – Planyo Wordpress Plugin](https://github.com/anirbala98/CVE-2026-3576)
-  - Server-side request forgery leading to local file inclusion
-  - **Python • PHP • Docker**
-
-- [CVE-2026-67206 – Wolf CMS](https://github.com/anirbala98/CVE-2026-67206)
-  - Arbitrary file write leading to remote code execution
-  - **Python • PHP • Docker**
-
-- [CVE-2026-53959 - 4gaBoards](https://github.com/anirbala98/CVE-2026-53959)
-  - Broken access control leading to mass user information disclosure
-  - **Python • JavaScript • Docker**
-
+- Server-side request forgery leading to local file inclusion in Planyo WordPress plugin (CVE-2026-3576) [[Repo]](https://github.com/anirbala98/CVE-2026-3576)
+- Arbitrary file write leading to remote code execution in Wolf CMS (CVE-2026-67206) [[Repo]](https://github.com/anirbala98/CVE-2026-67206)
+- Broken access control leading to mass user information disclosure in 4gaBoards (CVE-2026-53959) [[Repo]](https://github.com/anirbala98/CVE-2026-53959)
 
 ### 🔴 Open Source Contributions
 
 A list of my contributions to open source security tools.
 
-- [Metasploit](https://github.com/anirbala98/metasploit-framework/blob/cve-2026-3576-lfi/modules/auxiliary/gather/wp_planyo_lfi_cve_2026_3576.rb)
-  - Exploit module for local file inclusion vulnerability in a WordPress plugin (CVE-2026-3576)
-  - [Upstream PR](https://github.com/rapid7/metasploit-framework/pull/21769) . **Under Review**
-  - **Ruby • Metasploit **
+- Metasploit
+  - A local file inclusion exploit module affecting Planyo WordPress plugin (CVE-2026-3576) [[Module Link]](https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/wp_planyo_lfi_cve_2026_3576.rb)
+  - A mass user information disclosure module affecting 4gaBoards (CVE-2026-53959) [[PR under review]](https://github.com/rapid7/metasploit-framework/pull/21831)
 
 ---
 
@@ -143,9 +131,9 @@ My blogs can be found [here](https://medium.com/@anirbala98)
 
 My research has been published at top-tier security conferences and journals.
 
-- An adversarial attack approach for eXplainable AI evaluation on deepfake detection models, Computers & Security, 2024 [Link](https://www.sciencedirect.com/science/article/abs/pii/S0167404823005941)
-- GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone, IEEE Conference on Communications & Network Security, 2022 [Link](https://ieeexplore.ieee.org/document/9947233/)
-- Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques, IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 [Link](https://ieeexplore.ieee.org/document/9368949)
+- An adversarial attack approach for eXplainable AI evaluation on deepfake detection models, Computers & Security, 2024 [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0167404823005941)
+- GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone, IEEE Conference on Communications & Network Security, 2022 [[Link]](https://ieeexplore.ieee.org/document/9947233/)
+- Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques, IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 [[Link]](https://ieeexplore.ieee.org/document/9368949)
 
 ---
 
