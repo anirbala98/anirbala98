@@ -19,7 +19,7 @@ Currently building security tools, researching vulnerabilities, contributing to 
 ## 🧑‍💻 About Me
 
 ```text
-🔐 Security Research Engineer
+🔐 Security Engineer
 🎯 Penetration Tester
 🤖 AI / LLM Security
 💥 Vulnerability Research & Exploit Development
@@ -34,43 +34,6 @@ Currently building security tools, researching vulnerabilities, contributing to 
 * 💥 Published conference/journal papers, vulnerability research and exploit PoCs
 * 🐙 Open-source security contributor
 * ✍️ Technical writer covering cybersecurity and vulnerability research
-
----
-
-## ⚔️ Security Arsenal
-
-### 🔴 Offensive Security
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nmap-4682B4?style=flat-square" />
-  <img src="https://img.shields.io/badge/BloodHound-111111?style=flat-square" />
-  <img src="https://img.shields.io/badge/Impacket-333333?style=flat-square" />
-  <img src="https://img.shields.io/badge/SQLMap-CC0000?style=flat-square" />
-  <img src="https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white" />
-</p>
-
-### 💻 Programming & Scripting
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" />
-</p>
-
-### 🐧 Platforms & Infrastructure
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
-</p>
 
 ---
 
@@ -101,14 +64,16 @@ A collection of vulnerability research and proof-of-concept exploit development 
 - Server-side request forgery leading to local file inclusion in Planyo WordPress plugin (CVE-2026-3576) [[Repo]](https://github.com/anirbala98/CVE-2026-3576)
 - Arbitrary file write leading to remote code execution in Wolf CMS (CVE-2026-67206) [[Repo]](https://github.com/anirbala98/CVE-2026-67206)
 - Broken access control leading to mass user information disclosure in 4gaBoards (CVE-2026-53959) [[Repo]](https://github.com/anirbala98/CVE-2026-53959)
+- Arbitrary file read in Welcart e-Commerce WordPress plugin (CVE-2022-4140) [[Repo]](https://github.com/anirbala98/CVE-2022-4140)
 
 ### 🔴 Open Source Contributions
 
 A list of my contributions to open source security tools.
 
 - Metasploit
-  - A local file inclusion exploit module affecting Planyo WordPress plugin (CVE-2026-3576) [[Module Link]](https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/gather/wp_planyo_lfi_cve_2026_3576.rb)
+  - A local file inclusion exploit module affecting Planyo WordPress plugin (CVE-2026-3576) [[Merged PR]](https://github.com/rapid7/metasploit-framework/pull/21769)
   - A mass user information disclosure module affecting 4gaBoards (CVE-2026-53959) [[PR under review]](https://github.com/rapid7/metasploit-framework/pull/21831)
+  - An arbitrary file read module affecting Welcart e-Commerce WordPress plugin (CVE-2022-4140) [[PR under review]](https://github.com/rapid7/metasploit-framework/pull/21886)
 
 ---
 
@@ -136,17 +101,6 @@ My research has been published at top-tier security conferences and journals.
 - Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques, IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 [[Link]](https://ieeexplore.ieee.org/document/9368949)
 
 ---
-
-## 📚 Currently Learning
-
-```text
-Windows Internals
-Advanced Web Exploitation
-Cloud Security
-LLM Security
-Malware Analysis
-Advanced Active Directory Attacks
-```
 
 ---
 
