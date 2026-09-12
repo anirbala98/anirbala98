@@ -74,6 +74,8 @@ A list of my contributions to open source security tools.
   - A local file inclusion exploit module affecting Planyo WordPress plugin (CVE-2026-3576) [[Merged PR]](https://github.com/rapid7/metasploit-framework/pull/21769)
   - A mass user information disclosure module affecting 4gaBoards (CVE-2026-53959) [[PR under review]](https://github.com/rapid7/metasploit-framework/pull/21831)
   - An arbitrary file read module affecting Welcart e-Commerce WordPress plugin (CVE-2022-4140) [[PR under review]](https://github.com/rapid7/metasploit-framework/pull/21886)
+- Nuclei
+  - Authored a template for a file path traversal vulnerability affecting Docmost (CVE-2025-57231) [[PR under review]](https://github.com/projectdiscovery/nuclei-templates/pull/17230)
 
 ---
 
