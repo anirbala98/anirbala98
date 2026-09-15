@@ -12,7 +12,9 @@ I'm a cybersecurity professional with **3.5+ years of experience** in offensive 
 
 My interests include **penetration testing, vulnerability research, exploit development and red teaming**.
 
-Currently building security tools, researching vulnerabilities, contributing to open-source security projects, and documenting my work.
+Currently building security tools, researching vulnerabilities and contributing to open-source security projects.
+
+I also actively write blogs which can be found [here](https://medium.com/@anirbala98).
 
 ---
 
@@ -71,26 +73,12 @@ A collection of vulnerability research and proof-of-concept exploit development 
 A list of my contributions to open source security tools.
 
 - Metasploit
-  - A local file inclusion exploit module affecting Planyo WordPress plugin (CVE-2026-3576) [[Merged PR]](https://github.com/rapid7/metasploit-framework/pull/21769)
-  - A mass user information disclosure module affecting 4gaBoards (CVE-2026-53959) [[PR under review]](https://github.com/rapid7/metasploit-framework/pull/21831)
-  - An arbitrary file read module affecting Welcart e-Commerce WordPress plugin (CVE-2022-4140) [[PR under review]](https://github.com/rapid7/metasploit-framework/pull/21886)
+  - A local file inclusion exploit module affecting Planyo WordPress plugin (CVE-2026-3576) [[Merged]](https://github.com/rapid7/metasploit-framework/pull/21769)
+  - A mass user information disclosure module affecting 4gaBoards (CVE-2026-53959) [[Under review]](https://github.com/rapid7/metasploit-framework/pull/21831)
+  - An arbitrary file read exploit module affecting Welcart e-Commerce WordPress plugin (CVE-2022-4140) [[Under review]](https://github.com/rapid7/metasploit-framework/pull/21886)
+  - An arbitrary file read exploit module affecting Docmost (CVE-2025-57231) [[Under review]](https://github.com/rapid7/metasploit-framework/pull/21902)
 - Nuclei
-  - Authored a template for a file path traversal vulnerability affecting Docmost (CVE-2025-57231) [[PR under review]](https://github.com/projectdiscovery/nuclei-templates/pull/17230)
-
----
-
-## ✍️ Writing
-
-I write about:
-
-* 🔍 Vulnerability Research
-* 💥 Exploit Development
-* 🌐 Web Application Security
-* 🏢 Active Directory
-* 🧪 Capture The Flag Challenges
-* 🛠️ Security Tool Development
-
-My blogs can be found [here](https://medium.com/@anirbala98)
+  - Authored a template for a file path traversal vulnerability affecting Docmost (CVE-2025-57231) [[Merged]](https://github.com/projectdiscovery/nuclei-templates/pull/17230)
 
 ---
 
@@ -101,8 +89,6 @@ My research has been published at top-tier security conferences and journals.
 - An adversarial attack approach for eXplainable AI evaluation on deepfake detection models, Computers & Security, 2024 [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0167404823005941)
 - GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone, IEEE Conference on Communications & Network Security, 2022 [[Link]](https://ieeexplore.ieee.org/document/9947233/)
 - Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques, IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 [[Link]](https://ieeexplore.ieee.org/document/9368949)
-
----
 
 ---
 
