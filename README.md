@@ -42,43 +42,91 @@ I also actively write blogs which can be found [here](https://medium.com/@anirba
 ## 🎓 Certifications
 
 <p align="left">
-  <img src="https://img.shields.io/badge/OSCP-Offensive%20Security%20Certified%20Professional-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/eCPPT-Certified%20Professional%20Penetration%20Tester-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/eJPT-Junior%20Penetration%20Tester-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SSCP-Systems%20Security%20Certified%20Practitioner-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AWS SAA-AWS%20Solutions%20Architect%20Associate-yellow?style=for-the-badge" />
+  <img width="100" height="100" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/184655072" />
+  <img width="100" height="100" src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/184655116" />
+  <img width="100" height="100" src="https://images.credly.com/size/680x680/images/c4320f01-2ff4-4508-984a-415fc94e3aec/image.png" />
+  <img width="100" height="100" src="https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" />
 </p>
 
 ---
 
 ## 🛠️ Featured Projects
 
-### 🔥 Security Automation
-
-A collection of Python/Bash utilities for automating common penetration testing and reconnaissance tasks.
-
-- Linux Pentesting Toolkit - Helper scripts for automating privilege escalation and enumeration in Linux [[Repo]](https://github.com/anirbala98/Linux-Pentest-Kit)
-
 ### 💥 Exploit Development
 
-A collection of vulnerability research and proof-of-concept exploit development projects.
-
-- Server-side request forgery leading to local file inclusion in Planyo WordPress plugin (CVE-2026-3576) [[Repo]](https://github.com/anirbala98/CVE-2026-3576)
-- Arbitrary file write leading to remote code execution in Wolf CMS (CVE-2026-67206) [[Repo]](https://github.com/anirbala98/CVE-2026-67206)
-- Broken access control leading to mass user information disclosure in 4gaBoards (CVE-2026-53959) [[Repo]](https://github.com/anirbala98/CVE-2026-53959)
-- Arbitrary file read in Welcart e-Commerce WordPress plugin (CVE-2022-4140) [[Repo]](https://github.com/anirbala98/CVE-2022-4140)
+Click [here]() for a full list of my PoC exploits for publicly disclosed CVEs. You can find my Exploit-DB submissions [here](https://www.exploit-db.com/?author=12405).
 
 ### 🔴 Open Source Contributions
 
 A list of my contributions to open source security tools.
+<details>
+<summary> Metasploit </summary>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Exploit</th>
+      <th>CVE</th>
+      <th>Status</th>
+      <th>PR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Arbitrary file read via SSRF in Planyo WordPress plugin</td>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-3576">CVE-2026-3576</a></td>
+      <td>Merged</td>
+      <td><a href="https://github.com/rapid7/metasploit-framework/pull/21769">[Link]</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>User information disclosure via broken access control in 4gaBoards</td>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53959">CVE-2026-53959</a></td>
+      <td>Under Review</td>
+      <td><a href="https://github.com/rapid7/metasploit-framework/pull/21831">[Link]</a></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Arbitrary file read via path traversal in Docmost</td>
+      <td><a href="https://www.tenable.com/cve/CVE-2025-57231">CVE-2025-57231</a></td>
+      <td>Under Review</td>
+      <td><a href="https://github.com/rapid7/metasploit-framework/pull/21902">[Link]</a></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Arbitrary file read in WordPress Welcart e-Commerce plugin</td>
+      <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-4140">CVE-2022-4140</a></td>
+      <td>Under Review</td>
+      <td><a href="https://github.com/rapid7/metasploit-framework/pull/21886">[Link]</a></td>
+    </tr>
+  </tbody>
+</table>
+</details>
 
-- Metasploit
-  - A local file inclusion exploit module affecting Planyo WordPress plugin (CVE-2026-3576) [[Merged]](https://github.com/rapid7/metasploit-framework/pull/21769)
-  - A mass user information disclosure module affecting 4gaBoards (CVE-2026-53959) [[Under review]](https://github.com/rapid7/metasploit-framework/pull/21831)
-  - An arbitrary file read exploit module affecting Welcart e-Commerce WordPress plugin (CVE-2022-4140) [[Under review]](https://github.com/rapid7/metasploit-framework/pull/21886)
-  - An arbitrary file read exploit module affecting Docmost (CVE-2025-57231) [[Under review]](https://github.com/rapid7/metasploit-framework/pull/21902)
-- Nuclei
-  - Authored a template for a file path traversal vulnerability affecting Docmost (CVE-2025-57231) [[Merged]](https://github.com/projectdiscovery/nuclei-templates/pull/17230)
+<details>
+  <summary>Nuclei</summary>
+  <br>
+  <table>
+    <tbody>
+      <tr>
+        <td>No.</td>
+        <td>Exploit</td>
+        <td>CVE</td>
+        <td>Status</td>
+        <td>PR</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Arbitrary file read via path traversal in Docmost</td>
+        <td><a href="https://www.tenable.com/cve/CVE-2025-57231">CVE-2025-57231</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17230">[Link]</a></td>
+      </tr>
+    </tbody>
+  </table>
+</details>
 
 ---
 
