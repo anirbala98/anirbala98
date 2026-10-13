@@ -109,16 +109,32 @@ A list of my contributions to open source security tools.
   <summary>Nuclei</summary>
   <br>
   <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Exploit</th>
+        <th>CVE</th>
+        <th>Status</th>
+        <th>PR</th>
+      </tr>
+    </thead>
     <tbody>
       <tr>
-        <td>No.</td>
-        <td>Exploit</td>
-        <td>CVE</td>
-        <td>Status</td>
-        <td>PR</td>
+        <td>1</td>
+        <td>Authenticated reflected XSS in WordPress Tag Groups plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-9833">CVE-2026-9833</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17388">[Link]</a></td>
       </tr>
       <tr>
-        <td>1</td>
+        <td>2</td>
+        <td>Authenticated reflected XSS in WordPress weMail plugin</td>
+        <td><a href="https://www.tenable.com/cve/CVE-2026-8089">CVE-2026-8089</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17384">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
         <td>Arbitrary file read via path traversal in Docmost</td>
         <td><a href="https://www.tenable.com/cve/CVE-2025-57231">CVE-2025-57231</a></td>
         <td>Merged</td>
