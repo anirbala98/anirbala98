@@ -84,7 +84,7 @@ A list of my contributions to open source security tools.
       <td>2</td>
       <td>User information disclosure via broken access control in 4gaBoards</td>
       <td><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-53959">CVE-2026-53959</a></td>
-      <td>Under Review</td>
+      <td>Merged</td>
       <td><a href="https://github.com/rapid7/metasploit-framework/pull/21831">[Link]</a></td>
     </tr>
     <tr>
