@@ -31,7 +31,7 @@ I also actively write blogs which can be found [here](https://medium.com/@anirba
 ```
 
 * 🛡️ **OSCP Certified**
-* 🔎 Interested in **Web, API, Network & Active Directory Security**
+* 🔎 Interested in **Web, API, Network, Active Directory, Mobile and Cloud Security**
 * 🤖 Experience with **AI Security, Adversarial Testing & LLM Assessments**
 * 💥 Published conference/journal papers, vulnerability research and exploit PoCs
 * 🐙 Open-source security contributor
@@ -121,20 +121,97 @@ A list of my contributions to open source security tools.
     <tbody>
       <tr>
         <td>1</td>
-        <td>Authenticated reflected XSS in WordPress Tag Groups plugin</td>
+        <td>SQL Injection in WordPress WPLP Cookie Consent plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-82186">CVE-2026-82186</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17444">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>RCE in WordPress Broken Link Checker plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-18937">CVE-2026-18937</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17468">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Arbitrary file read in WordPress Bit File Manager plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-17540">CVE-2026-17540</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17497">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>SQL Injection in WordPress WPLP Media Library Assistant plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-16959">CVE-2026-16959</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17509">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Reflected XSS in WordPress Link Library plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-16535">CVE-2026-16535</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17432">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Reflected XSS in WordPress Contact Form Entries plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-14870">CVE-2026-14870</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17474">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>SQL Injection in WordPress Check & Log plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-14554">CVE-2026-14554</a></td>
+        <td>Under Review</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17569">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Reflected XSS in WordPress LearnPress plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-12970">CVE-2026-12970</a></td>
+        <td>Under Review</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17530">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Arbitrary file read in WordPress Advanced File Manager plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-11565">CVE-2026-11565</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17494">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Reflected XSS in WordPress Tag Groups plugin</td>
         <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-9833">CVE-2026-9833</a></td>
         <td>Merged</td>
         <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17388">[Link]</a></td>
       </tr>
       <tr>
-        <td>2</td>
-        <td>Authenticated reflected XSS in WordPress weMail plugin</td>
+        <td>11</td>
+        <td>Arbitrary file read in WordPress Agile Store Locator plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-9062">CVE-2026-9062</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17456">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Reflected XSS in WordPress weMail plugin</td>
         <td><a href="https://www.tenable.com/cve/CVE-2026-8089">CVE-2026-8089</a></td>
         <td>Merged</td>
         <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17384">[Link]</a></td>
       </tr>
       <tr>
-        <td>3</td>
+        <td>13</td>
+        <td>Reflected XSS in WordPress Ajax Load More plugin</td>
+        <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-6495">CVE-2026-6495</a></td>
+        <td>Merged</td>
+        <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17457">[Link]</a></td>
+      </tr>
+      <tr>
+        <td>14</td>
         <td>Arbitrary file read via path traversal in Docmost</td>
         <td><a href="https://www.tenable.com/cve/CVE-2025-57231">CVE-2025-57231</a></td>
         <td>Merged</td>
