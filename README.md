@@ -163,16 +163,16 @@ A list of my contributions to open source security tools.
       </tr>
       <tr>
         <td>7</td>
-        <td>SQL Injection in WordPress Check & Log plugin</td>
+        <td>SQL Injection in WordPress Check & Log Email plugin</td>
         <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-14554">CVE-2026-14554</a></td>
-        <td>Under Review</td>
+        <td>Merged</td>
         <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17569">[Link]</a></td>
       </tr>
       <tr>
         <td>8</td>
         <td>Reflected XSS in WordPress LearnPress plugin</td>
         <td><a href="https://nvd.nist.gov/vuln/detail/cve-2026-12970">CVE-2026-12970</a></td>
-        <td>Under Review</td>
+        <td>Merged</td>
         <td><a href="https://github.com/projectdiscovery/nuclei-templates/pull/17530">[Link]</a></td>
       </tr>
       <tr>
@@ -227,6 +227,7 @@ A list of my contributions to open source security tools.
 
 My research has been published at top-tier security conferences and journals.
 
+- From Guidelines to Practice: Defining Requirements for AI Red-Teaming Tools, arXiv, 2026 [[Link]](https://arxiv.org/abs/2611.04271)
 - An adversarial attack approach for eXplainable AI evaluation on deepfake detection models, Computers & Security, 2024 [[Link]](https://www.sciencedirect.com/science/article/abs/pii/S0167404823005941)
 - GateKeeper: Operator-centric Trusted App Management Framework on ARM TrustZone, IEEE Conference on Communications & Network Security, 2022 [[Link]](https://ieeexplore.ieee.org/document/9947233/)
 - Designing a Text-based CAPTCHA Breaker and Solver by using Deep Learning Techniques, IEEE International Conference on Advances and Developments in Electrical and Electronics Engineering, 2021 [[Link]](https://ieeexplore.ieee.org/document/9368949)
